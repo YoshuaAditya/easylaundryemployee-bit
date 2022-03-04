@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">EasyLaundryEmployee</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masuk">MASUK</string>
+    <string name="atau">ATAU</string>
+    <string name="daftarbaru">DAFTAR BARU</string>
+    <string name="secretcode">masukan kode rahasia</string>
+    <string name="masukannama">+ masukan nama</string>
+    <string name="masukankota">+ masukan kota</string>
+    <string name="pilihposisi">+ pilih posisi</string>
+    <string name="kode">kode</string>
+    <string name="masukanemail">+ masukan email</string>
+    <string name="masukanpassword">+ masukan password</string>
+    <string name="konfirmasipassword">+ konfirmasi password</string>
+    <string name="buatakun">BUAT AKUN</string>
+    <string name="lihatdaftarakun">LIHAT DAFTAR AKUN</string>
+    <string name="fill_data">Semua data harus terisi</string>
+    <string name="password_mismatch">Password tidak sama</string>
+    <string name="pickup">pick-up</string>
+    <string name="delivery">delivery</string>
+    <string name="doa">Jangan lupa berdoa sebelum bekerja :)</string>
+    <string name="logout">Logout</string>
+    <string name="aktifkankamera">aktifkan kamera</string>
+    <string name="manual">manual</string>
+    <string name="keterangan">keterangan</string>
+    <string name="nama">Nama</string>
+    <string name="posisi">Posisi</string>
+    <string name="kodeTulisan">Kode</string>
+    <string name="mark">:</string>
+    <string name="adminid" translatable="false">ayAK0DrpaNfueLg0eaAo1nDiXH82</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="userid_preference">userid_preference</string>
+    <string name="dialog_title">Masukkan id nota</string>
+    <string name="rapor_bulanan">Rapor bulanan</string>
+    <string name="rapor_harian">Rapor harian</string>
+</resources>

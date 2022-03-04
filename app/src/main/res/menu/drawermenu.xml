@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/harian" android:title="@string/rapor_harian" />
+    <item android:id="@+id/bulanan" android:title="@string/rapor_bulanan"/>
+    <item android:id="@+id/logout" android:title="@string/logout" android:icon="@drawable/ic_logout"/>
+</menu>

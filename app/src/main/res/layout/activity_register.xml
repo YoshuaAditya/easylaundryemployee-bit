@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_login"
+    android:layout_width="match_parent"
+    android:paddingBottom="30dp"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/editTextNama"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_edit_text"
+            android:fontFamily="@font/lato_medium"
+            android:hint="@string/masukannama"
+            android:textAlignment="center"
+            android:textColor="@color/colorPureWhite"
+            android:textColorHint="@color/colorPureWhite"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinnerKota"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNama"/>
+
+        <Spinner
+            android:id="@+id/spinnerPosisi"
+            android:layout_width="310dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerKota"/>
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_edit_text"
+            android:fontFamily="@font/lato_medium"
+            android:hint="@string/masukanemail"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/colorPureWhite"
+            android:textColorHint="@color/colorPureWhite"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerPosisi" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_edit_text"
+            android:fontFamily="@font/lato_medium"
+            android:hint="@string/masukanpassword"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/colorPureWhite"
+            android:textColorHint="@color/colorPureWhite"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+        <EditText
+            android:id="@+id/editTextKonfirmasiPassword"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_edit_text"
+            android:fontFamily="@font/lato_medium"
+            android:hint="@string/konfirmasipassword"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/colorPureWhite"
+            android:textColorHint="@color/colorPureWhite"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+
+        <Button
+            android:id="@+id/buttonBuatAkun"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_button_login"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/buatakun"
+            android:textColor="@color/colorPureWhite"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextKonfirmasiPassword" />
+
+        <TextView
+            android:id="@+id/textViewAtau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/atau"
+            android:textColor="@color/colorPureWhite"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/linear2"
+            app:layout_constraintStart_toEndOf="@+id/linear1"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBuatAkun" />
+
+        <TableRow
+            android:id="@+id/linear1"
+            android:layout_width="120dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/colorPureWhite"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/textViewAtau"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBuatAkun"></TableRow>
+
+        <TableRow
+            android:id="@+id/linear2"
+            android:layout_width="120dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/colorPureWhite"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewAtau"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBuatAkun"></TableRow>
+
+        <Button
+            android:id="@+id/buttonLihatDaftarAkun"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_button_login"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/logout"
+            android:textColor="@color/colorPureWhite"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAtau" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "714914452781",
+    "firebase_url": "https://easylaundry-2c69e.firebaseio.com",
+    "project_id": "easylaundry-2c69e",
+    "storage_bucket": "easylaundry-2c69e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714914452781:android:08cb853ea92a463e",
+        "android_client_info": {
+          "package_name": "com.inocen.easylaundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714914452781-f7d0i4acdhphu6r0487q42fuh830ad5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inocen.easylaundry",
+            "certificate_hash": "3bdb0fd4574ec0079604c54234377c23219708ec"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRFbUMTlEmblVer_YFqqWOu6GZVCbMGM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714914452781-vmuu6itail1pcr4ppg82tlu42veel2sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
